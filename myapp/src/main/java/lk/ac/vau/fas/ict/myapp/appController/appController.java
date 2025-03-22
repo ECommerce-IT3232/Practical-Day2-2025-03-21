@@ -13,4 +13,9 @@ public class appController {
 	public String myName() {
 	    return "Hello SpringBoot.";
 	}
+
+    @GetMapping("/profile")
+	public String myProfile() {
+		return "Hello my name is Kasun.";
+	}
 }
